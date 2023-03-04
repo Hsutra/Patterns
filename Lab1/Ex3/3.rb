@@ -1,6 +1,7 @@
 #Написать методы, которые находят минимальный,элементы, номер первого положительного элемента. 
 #Каждая операция в отдельном методе. Решить задачу с помощью циклов(for и while).
 
+
 def min(a)
 	min = a[0]
   	for i in 0...a.size
@@ -12,8 +13,7 @@ def min(a)
 end
 
 def max(a)
-	max = a[0]
-  	for i in 0..a.size-1
+ 	for i in 0..a.size-1
     	if (a[i] > max)
       		max = a[i]
     	end
@@ -36,12 +36,20 @@ def first_positive(a)
     end
 end
 
-n = 30
-a = Array.new(n)
-for i in 0..a.size
-	a[i] = Random.rand(-50..50)
+
+path = ARGV[0]
+file = File.new(path,"r:UTF-8")
+arr = file.readline.split.map(&:to_i)
+puts "Выбери свою операцию:"
+puts "\n1-Найти минимальный элемент\n2-Найти максимальный элемент\n3-Найти номер первого положительного элемента"
+puts "\nПолученный массив:", arr, "\n"
+if(ARGV[1] == "1")
+	puts "Результат: Минимальный элемент массива: ", min(arr)
+elsif(ARGV[1] == "2")
+	puts "Результат: Максимальный элемент массива: ", max(arr)
+elsif(ARGV[1] == "3")
+	puts "Результат: Номер первого положительного элемента: ",first_positive(arr_int)
+else 
+	puts "Результат: Чел, собирай утром рюкзачек и иди на алгебру"
 end
-puts a
-puts "Минимальный элемент массива: #{min(a)}"
-puts "Максимальный элемент массива: #{max(a)}"
-first_positive(a)
+
