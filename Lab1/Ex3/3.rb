@@ -1,6 +1,6 @@
 def min(a)
 	min = a[0]
-  	for i in 0...a.size
+  	for i in 0..a.size
     	if (a[i] < min)
     		min = a[i]
     	end
