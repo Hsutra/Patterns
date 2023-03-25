@@ -1,4 +1,3 @@
-a = ARGV[0]
 puts "Здравствуй #{ARGV[0]}"
 puts "Какой твой любимый язык программирования?"
 case STDIN.gets.chomp
