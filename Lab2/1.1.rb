@@ -31,16 +31,16 @@ class Student
 		@name
 	end
 
-	def setname(mame)
+	def setname(name)
 		@name = name
 	end
 	
-	def getlastName
-		@lastName
+	def getfather_name
+		@father_name
 	end
 
-	def setlastName(lastName)
-		@lastName = lastName
+	def setfather_name(father_name)
+		@father_name = father_name
 	end
 	
 	def getphone
@@ -51,7 +51,7 @@ class Student
 	end
 	
 	def gettelegram
-		@tme
+		@telegram
 	end
 	def settelegram(telegram)
 		@telegram = telegram
@@ -72,3 +72,4 @@ class Student
 	def setgit(git)
 		@git = git
 	end
+ end
