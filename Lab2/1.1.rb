@@ -15,7 +15,7 @@ class Student
 		@id
 	end
 
-	def setid(id)
+	def id=(id)
 		@id = id
 	end
 	
@@ -23,7 +23,7 @@ class Student
 		@surname
 	end
 
-	def setsurname(surname)
+	def surname=(surname)
 		@surname = surname
 	end
 	
@@ -31,7 +31,7 @@ class Student
 		@name
 	end
 
-	def setname(name)
+	def name=(name)
 		@name = name
 	end
 	
@@ -39,21 +39,23 @@ class Student
 		@father_name
 	end
 
-	def setfather_name(father_name)
+	def father_name=(father_name)
 		@father_name = father_name
 	end
 	
 	def getphone
 		@phone
 	end
-	def setphone(phone)
+
+	def phone=(phone)
 		@phone = phone
 	end
 	
 	def gettelegram
 		@telegram
 	end
-	def settelegram(telegram)
+
+	def telegram=(telegram)
 		@telegram = telegram
 	end
 	
@@ -61,7 +63,7 @@ class Student
 		@email
 	end
 
-	def setemail(email)
+	def email=(email)
 		@email = email
 	end
 	
@@ -69,7 +71,7 @@ class Student
 		@git
 	end
 
-	def setgit(git)
+	def git=(git)
 		@git = git
 	end
  end
