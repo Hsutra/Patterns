@@ -13,8 +13,6 @@ class Student
 		self.git
 	end
 	
-	attr_writer :id, :surname, :name, :father_name, :phone, :telegram, :email, :git
-
 	def to_s
     	"ID: #{@id}, Фамилия: #{@surname}, Имя: #{@name}, Отчество: #{@father_name}, Телефон: #{@phone}, Телеграм: #{@telegram}, Почта: #{@email}, Гит: #{@git}\n"
   	end
