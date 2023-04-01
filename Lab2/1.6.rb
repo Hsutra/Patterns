@@ -21,3 +21,4 @@ end
 
 student1 = Student.new(id:1, surname: "Абуюков", name: "Эуфар", father_name: "Маратович")
 puts student1
+^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$
