@@ -17,4 +17,6 @@ class Student
     	"ID: #{@id}, Фамилия: #{@surname}, Имя: #{@name}, Отчество: #{@father_name}, Телефон: #{@phone}, Телеграм: #{@telegram}, Почта: #{@email}, Гит: #{@git}\n"
   	end
 
- end
+end
+
+student1 = Student.new(surname:"Абуюков", name:"Эуфар", father_name:"Маратович")
