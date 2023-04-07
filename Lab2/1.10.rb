@@ -82,15 +82,15 @@ class Student
     @telegram = telegram
   end
 
-  def validate_git()
+  def validate_git?()
     @git!=nil
   end
 
-  def validate_contacts()
+  def validate_contacts?()
     @phone!=nil or @telegram!=nil or @email!=nil
   end
 
-  def validate()
+  def validate?()
     validate_contacts && validate_git
   end
 
