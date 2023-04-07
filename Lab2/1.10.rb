@@ -24,6 +24,7 @@ class Student
 
   def id=(id)
     raise ArgumentError,"Формат индентификационного номера неверный!" if !id.nil? && !Student.is_right_ID(id)
+    @id=id
   end
 
   def self.is_right_FIO(fio)
