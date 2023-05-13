@@ -30,8 +30,5 @@ class Data_list
     #Этот метод будтет реализован в наследнике
     def get_data
     end
-  
-    private
-    attr_accessor :select_items
-    attr_writer :list
+    
   end
