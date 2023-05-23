@@ -4,7 +4,7 @@ load("RubyLabs/Lab2/Ex3/Data_table.rb")
 class Data_list_student_short < Data_list
 
     def get_names
-        @list[1..-1]
+        ["initials","git","contact"]
     end
   
     def get_date
