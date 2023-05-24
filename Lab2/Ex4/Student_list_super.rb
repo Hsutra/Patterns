@@ -1,6 +1,6 @@
-load("RubyLabs/Lab2/Ex2/student.rb")
-load("RubyLabs/Lab2/Ex2/student_short.rb")
-load("RubyLabs/Lab2/Ex3/Data_list.rb")
+load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex2/student.rb")
+load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex2/student_short.rb")
+load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex3/Data_list.rb")
 
 class Student_list_super
 
@@ -64,7 +64,7 @@ class Student_list_super
 
   #получение нового id для студента
   def get_new_student_id
-    students.max_by(&:id).id +1
+    students.max_by(&:id).id + 1
   end
 
 end
