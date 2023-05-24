@@ -4,7 +4,7 @@ load("RubyLabs/Lab2/Ex3/Data_table.rb")
 class Data_list_student_short < Data_list
 
     def get_names
-        ["initials","git","contact"]
+        ["fullname","git","contact"]
     end
   
     def get_date
@@ -22,8 +22,9 @@ class Data_list_student_short < Data_list
 
     # сеттер для массива объектов
     def table_fields(object)
-        [object.shortname, object.git, object.contact]
+        [object.fullname, object.git, object.contact]
     end
+
 end
 
 
