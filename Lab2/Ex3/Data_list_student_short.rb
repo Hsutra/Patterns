@@ -20,6 +20,10 @@ class Data_list_student_short < Data_list
         Data_table.new(result)
     end
 
+    # сеттер для массива объектов
+    def table_fields(object)
+        [object.shortname, object.git, object.contact]
+    end
 end
 
 
