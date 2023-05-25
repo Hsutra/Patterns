@@ -1,8 +1,6 @@
 load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex2/student.rb")
 load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex2/student_short.rb")
 load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex3/Data_list.rb")
-load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex4/Student_List_YAML.rb")
-load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex4/Student_List_JSON.rb")
 
 class Student_list_super
 
