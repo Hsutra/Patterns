@@ -5,7 +5,7 @@ class StudentListYaml<StudentListStrategy
   public_class_method :new
 
   #получение массива хэшей из строки
-  def list_hash_from_str(str)
+  def list_hash_from_str(str
     YAML.load(str).map {|hash| hash.transform_keys(&:to_sym)}
   end
 
