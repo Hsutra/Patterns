@@ -5,7 +5,7 @@ load("C:/Users/artus/VsCodeProjects/RubyLabs/Lab2/Ex3/Data_list.rb")
 class Student_list_super
 
   def initialize(type_class)
-    self.students = [
+    self.students = []
     self.type_class = type_class
   end
 
