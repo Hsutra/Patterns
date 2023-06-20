@@ -1,0 +1,3 @@
+insert into students(surname, first_name, father_name, phone, telegram, email, git) values ('Иванов', 'Петр', 'Олегович', '79182331553', NULL, NULL, 'queue/github.com');
+insert into students(surname, first_name, father_name, phone, telegram, email, git) values ('Петров', 'Олег', 'Иванович', NULL, NULL, 'abc@gmail.com', NULL);
+insert into students(surname, first_name, father_name, phone, telegram, email, git) values ('Олегов', 'Иван', 'Петрович', '123456789011', '@MMM', 'sop@mail.ru', NULL);
